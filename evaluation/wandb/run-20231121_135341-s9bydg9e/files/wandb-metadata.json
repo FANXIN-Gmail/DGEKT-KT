@@ -1,0 +1,50 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.8.10",
+    "heartbeatAt": "2023-11-21T04:53:42.208777",
+    "startedAt": "2023-11-21T04:53:41.542175",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "run.py",
+    "codePath": "KnowledgeTracing\\evaluation\\run.py",
+    "git": {
+        "remote": "git@github.com:Yumo216/DGEKT.git",
+        "commit": "a6ef5829d6dc25862fe46e394936bc04b7a3fbbb"
+    },
+    "email": "kalimdor.week@gmail.com",
+    "root": "C:/Users/15737/OneDrive/\u684c\u9762/DGEKT",
+    "host": "DESKTOP-J8NAUIA",
+    "username": "15737",
+    "executable": "C:\\Program Files\\python\\python.exe",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2501.0,
+        "min": 0.0,
+        "max": 2501.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2501.0,
+            "min": 0.0,
+            "max": 2501.0
+        }
+    ],
+    "disk": {
+        "total": 457.41308212280273,
+        "used": 162.73828887939453
+    },
+    "gpu": "NVIDIA GeForce GTX 1660 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1660 Ti",
+            "memory_total": 6442450944
+        }
+    ],
+    "memory": {
+        "total": 15.610595703125
+    }
+}

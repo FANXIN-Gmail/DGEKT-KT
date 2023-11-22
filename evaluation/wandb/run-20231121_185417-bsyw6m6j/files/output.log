@@ -1,0 +1,33 @@
+
+Generate adjacency matrix:    : 3750it [00:00, 13370.23it/s]
+Training:    :   0%|                                    | 0/44 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+Training:    : 100%|███████████████████████████| 44/44 [00:28<00:00,  1.54it/s]
+Testing:     : 100%|███████████████████████████| 14/14 [00:01<00:00,  7.18it/s]
+Training:    :   0%|                                    | 0/44 [00:00<?, ?it/s]
+loss: 257.15045166015625    kd_loss: 20.861412048339844
+Total loss: 278.0118713378906
+auc: 0.6700221995477721 acc: 0.6272326518203237
+Best auc at present: 0.670022  acc:  0.627233  Best epoch: 1
+Training:    :   7%|█▉                          | 3/44 [00:02<00:35,  1.17it/s]
+Traceback (most recent call last):
+  File "run.py", line 122, in <module>
+    KTtrain()
+  File "run.py", line 94, in KTtrain
+    model, optimizer = eval.train_epoch(model, trainLoaders[0], optimizer, loss_func)
+  File "/home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/../../KnowledgeTracing/evaluation/eval.py", line 86, in train_epoch
+    total_loss.backward(retain_graph=True)
+  File "/home/xinfan/anaconda3/envs/KD/lib/python3.8/site-packages/torch/_tensor.py", line 492, in backward
+    torch.autograd.backward(
+  File "/home/xinfan/anaconda3/envs/KD/lib/python3.8/site-packages/torch/autograd/__init__.py", line 251, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

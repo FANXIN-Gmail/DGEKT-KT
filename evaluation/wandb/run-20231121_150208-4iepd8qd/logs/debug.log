@@ -1,0 +1,26 @@
+2023-11-21 15:02:08,370 INFO    MainThread:1349224 [wandb_setup.py:_flush():76] Current SDK version is 0.16.0
+2023-11-21 15:02:08,370 INFO    MainThread:1349224 [wandb_setup.py:_flush():76] Configure stats pid to 1349224
+2023-11-21 15:02:08,370 INFO    MainThread:1349224 [wandb_setup.py:_flush():76] Loading settings from /home/xinfan/.config/wandb/settings
+2023-11-21 15:02:08,370 INFO    MainThread:1349224 [wandb_setup.py:_flush():76] Loading settings from /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/settings
+2023-11-21 15:02:08,370 INFO    MainThread:1349224 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'api_key': '***REDACTED***'}
+2023-11-21 15:02:08,370 INFO    MainThread:1349224 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'KnowledgeTracing/evaluation/run.py', 'program_abspath': '/home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/run.py', 'program': 'run.py'}
+2023-11-21 15:02:08,370 INFO    MainThread:1349224 [wandb_init.py:_log_setup():524] Logging user logs to /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_150208-4iepd8qd/logs/debug.log
+2023-11-21 15:02:08,370 INFO    MainThread:1349224 [wandb_init.py:_log_setup():525] Logging internal logs to /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_150208-4iepd8qd/logs/debug-internal.log
+2023-11-21 15:02:08,370 INFO    MainThread:1349224 [wandb_init.py:init():564] calling init triggers
+2023-11-21 15:02:08,370 INFO    MainThread:1349224 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {}
+2023-11-21 15:02:08,370 INFO    MainThread:1349224 [wandb_init.py:init():614] starting backend
+2023-11-21 15:02:08,370 INFO    MainThread:1349224 [wandb_init.py:init():618] setting up manager
+2023-11-21 15:02:08,370 INFO    MainThread:1349224 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-11-21 15:02:08,371 INFO    MainThread:1349224 [wandb_init.py:init():624] backend started and connected
+2023-11-21 15:02:08,372 INFO    MainThread:1349224 [wandb_init.py:init():716] updated telemetry
+2023-11-21 15:02:08,389 INFO    MainThread:1349224 [wandb_init.py:init():749] communicating run to backend with 90.0 second timeout
+2023-11-21 15:02:08,835 INFO    MainThread:1349224 [wandb_run.py:_on_init():2254] communicating current version
+2023-11-21 15:02:08,881 INFO    MainThread:1349224 [wandb_run.py:_on_init():2263] got version response 
+2023-11-21 15:02:08,881 INFO    MainThread:1349224 [wandb_init.py:init():800] starting run threads in backend
+2023-11-21 15:02:10,093 INFO    MainThread:1349224 [wandb_run.py:_console_start():2233] atexit reg
+2023-11-21 15:02:10,093 INFO    MainThread:1349224 [wandb_run.py:_redirect():2088] redirect: wrap_raw
+2023-11-21 15:02:10,093 INFO    MainThread:1349224 [wandb_run.py:_redirect():2153] Wrapping output streams.
+2023-11-21 15:02:10,093 INFO    MainThread:1349224 [wandb_run.py:_redirect():2178] Redirects installed.
+2023-11-21 15:02:10,094 INFO    MainThread:1349224 [wandb_init.py:init():841] run started, returning control to user process
+2023-11-21 15:14:21,992 WARNING MsgRouterThr:1349224 [router.py:message_loop():77] message_loop has been closed

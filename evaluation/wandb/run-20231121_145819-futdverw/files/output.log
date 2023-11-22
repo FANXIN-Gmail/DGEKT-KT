@@ -1,0 +1,18 @@
+
+Generate adjacency matrix:    : 3320it [00:00, 10578.45it/s]
+Training:    :   0%|                                    | 0/50 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "run.py", line 122, in <module>
+    KTtrain()
+  File "run.py", line 94, in KTtrain
+    model, optimizer = eval.train_epoch(model, trainLoaders[0], optimizer, loss_func)
+  File "/home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/../../KnowledgeTracing/evaluation/eval.py", line 82, in train_epoch
+    logit_c, logit_t, logit_ensemble = model(batch)
+  File "/home/xinfan/anaconda3/envs/KD/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/xinfan/anaconda3/envs/KD/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/../../KnowledgeTracing/model/Model.py", line 131, in forward
+    out_d = theta * out_light
+NameError: name 'out_light' is not defined
+epoch: 1            lr =  0.001

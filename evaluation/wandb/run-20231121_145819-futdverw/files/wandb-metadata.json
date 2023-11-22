@@ -1,0 +1,108 @@
+{
+    "os": "Linux-6.2.0-36-generic-x86_64-with-glibc2.17",
+    "python": "3.8.18",
+    "heartbeatAt": "2023-11-21T05:58:19.633648",
+    "startedAt": "2023-11-21T05:58:19.129723",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "run.py",
+    "codePathLocal": "run.py",
+    "codePath": "KnowledgeTracing/evaluation/run.py",
+    "git": {
+        "remote": "git@github.com:Yumo216/DGEKT.git",
+        "commit": "a6ef5829d6dc25862fe46e394936bc04b7a3fbbb"
+    },
+    "email": "kalimdor.week@gmail.com",
+    "root": "/home/xinfan/Desktop/DGEKT",
+    "host": "ze-UbuntuX",
+    "username": "xinfan",
+    "executable": "/home/xinfan/anaconda3/envs/KD/bin/python",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 3780.30625,
+        "min": 3000.0,
+        "max": 4700.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3000.0,
+            "min": 3000.0,
+            "max": 4700.0
+        },
+        {
+            "current": 4032.365,
+            "min": 3000.0,
+            "max": 4700.0
+        },
+        {
+            "current": 3775.109,
+            "min": 3000.0,
+            "max": 4700.0
+        },
+        {
+            "current": 4051.672,
+            "min": 3000.0,
+            "max": 4700.0
+        },
+        {
+            "current": 4700.0,
+            "min": 3000.0,
+            "max": 4700.0
+        },
+        {
+            "current": 4351.667,
+            "min": 3000.0,
+            "max": 4700.0
+        },
+        {
+            "current": 3350.176,
+            "min": 3000.0,
+            "max": 4700.0
+        },
+        {
+            "current": 3096.029,
+            "min": 3000.0,
+            "max": 4700.0
+        },
+        {
+            "current": 2768.355,
+            "min": 3000.0,
+            "max": 4700.0
+        },
+        {
+            "current": 4346.931,
+            "min": 3000.0,
+            "max": 4700.0
+        },
+        {
+            "current": 5431.373,
+            "min": 3000.0,
+            "max": 4700.0
+        },
+        {
+            "current": 4538.689,
+            "min": 3000.0,
+            "max": 4700.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1187.2697830200195,
+            "used": 292.6478080749512
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 4090",
+            "memory_total": 25757220864
+        }
+    ],
+    "memory": {
+        "total": 61.9179801940918
+    }
+}

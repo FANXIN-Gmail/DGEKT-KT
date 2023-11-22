@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "run.py", line 122, in <module>
+    KTtrain()
+  File "run.py", line 80, in KTtrain
+    adj = hgut.generate_G_from_H(pd.read_csv(r'../../Dataset/H/' + C.H + '.csv', header=None))
+  File "/home/xinfan/anaconda3/envs/KD/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/xinfan/anaconda3/envs/KD/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/xinfan/anaconda3/envs/KD/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1407, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/xinfan/anaconda3/envs/KD/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1661, in _make_engine
+    self.handles = get_handle(
+  File "/home/xinfan/anaconda3/envs/KD/lib/python3.8/site-packages/pandas/io/common.py", line 859, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '../../Dataset/H/assistednet.csv'

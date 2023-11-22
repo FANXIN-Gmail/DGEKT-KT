@@ -1,0 +1,255 @@
+2023-11-18 17:16:19,315 - main - INFO - This is a new training log
+2023-11-18 17:16:19,315 - main - INFO - 
+Dataset: assist2017, Ques number: 3162, Batch_size: 128
+2023-11-18 17:17:51,557 - main - INFO - This is a new training log
+2023-11-18 17:17:51,557 - main - INFO - 
+Dataset: assist2017, Ques number: 3162, Batch_size: 128
+2023-11-18 17:20:43,148 - main - INFO - epoch 1
+2023-11-18 17:20:56,979 - main.eval - INFO - 
+auc: 0.6844287000613611acc: 0.6689405764808217
+2023-11-18 17:23:35,929 - main - INFO - epoch 2
+2023-11-18 17:23:49,583 - main.eval - INFO - 
+auc: 0.692698025115838acc: 0.6729502043539911
+2023-11-18 17:26:49,138 - main - INFO - epoch 3
+2023-11-18 17:27:04,640 - main.eval - INFO - 
+auc: 0.7185181795485474acc: 0.6848360997581115
+2023-11-18 17:34:45,475 - main - INFO - This is a new training log
+2023-11-18 17:34:45,475 - main - INFO - 
+Dataset: assist2017, Ques number: 3162, Batch_size: 128
+2023-11-18 17:36:16,981 - main - INFO - This is a new training log
+2023-11-18 17:36:16,982 - main - INFO - 
+Dataset: assist2017, Ques number: 3162, Batch_size: 128
+2023-11-18 17:43:16,218 - main - INFO - epoch 1
+2023-11-18 17:43:37,840 - main.eval - INFO - 
+auc: 0.680735933112177acc: 0.6682256354038821
+2023-11-18 17:49:39,751 - main - INFO - epoch 2
+2023-11-18 17:50:25,995 - main.eval - INFO - 
+auc: 0.6825301909518318acc: 0.6689882392192843
+2023-11-18 17:54:35,861 - main - INFO - epoch 3
+2023-11-18 17:55:07,782 - main.eval - INFO - 
+auc: 0.6835787204518513acc: 0.6683447922500387
+2023-11-18 18:05:09,062 - main - INFO - epoch 4
+2023-11-18 18:06:54,722 - main.eval - INFO - 
+auc: 0.6840819903462094acc: 0.6684639490961953
+2023-11-18 18:08:55,303 - main - INFO - This is a new training log
+2023-11-18 18:08:55,303 - main - INFO - 
+Dataset: assist2017, Ques number: 3162, Batch_size: 128
+2023-11-18 18:17:51,375 - main - INFO - epoch 1
+2023-11-18 18:18:12,309 - main.eval - INFO - 
+auc: 0.6846337693922742acc: 0.6694112460231403
+2023-11-18 18:22:26,529 - main - INFO - epoch 2
+2023-11-18 18:23:16,011 - main.eval - INFO - 
+auc: 0.6935600745124504acc: 0.6734387474232332
+2023-11-18 18:30:40,915 - main - INFO - This is a new training log
+2023-11-18 18:30:40,915 - main - INFO - 
+Dataset: assist2017, Ques number: 3162, Batch_size: 128
+2023-11-18 18:34:36,902 - main - INFO - This is a new training log
+2023-11-18 18:34:36,902 - main - INFO - 
+Dataset: assist2017, Ques number: 3162, Batch_size: 128
+2023-11-18 18:35:55,353 - main - INFO - This is a new training log
+2023-11-18 18:35:55,354 - main - INFO - 
+Dataset: assist2017, Ques number: 3162, Batch_size: 128
+2023-11-18 18:36:52,451 - main - INFO - This is a new training log
+2023-11-18 18:36:52,451 - main - INFO - 
+Dataset: assist2017, Ques number: 3162, Batch_size: 128
+2023-11-18 18:39:54,723 - main - INFO - epoch 1
+2023-11-18 18:40:11,040 - main.eval - INFO - 
+auc: 0.6925033907431877acc: 0.6727476377155249
+2023-11-18 18:43:04,473 - main - INFO - epoch 2
+2023-11-18 18:43:22,228 - main.eval - INFO - 
+auc: 0.7057763143175771acc: 0.6775496586156358
+2023-11-18 18:46:08,896 - main - INFO - epoch 3
+2023-11-18 18:46:25,923 - main.eval - INFO - 
+auc: 0.7273258867915158acc: 0.6893700177543701
+2023-11-18 18:49:13,579 - main - INFO - epoch 4
+2023-11-18 18:49:31,315 - main.eval - INFO - 
+auc: 0.746082118158859acc: 0.6985391370661201
+2023-11-18 18:52:24,349 - main - INFO - epoch 5
+2023-11-18 18:52:40,640 - main.eval - INFO - 
+auc: 0.7589648428855675acc: 0.7068443692432349
+2023-11-18 18:55:27,474 - main - INFO - epoch 6
+2023-11-18 18:55:43,872 - main.eval - INFO - 
+auc: 0.7665386777214869acc: 0.7122243008472052
+2023-11-18 18:58:33,266 - main - INFO - epoch 7
+2023-11-18 18:58:50,470 - main.eval - INFO - 
+auc: 0.7707720885835303acc: 0.7164722424126878
+2023-11-18 19:01:37,113 - main - INFO - epoch 8
+2023-11-18 19:01:54,328 - main.eval - INFO - 
+auc: 0.7736431717904877acc: 0.7182298058934976
+2023-11-18 19:04:43,256 - main - INFO - epoch 9
+2023-11-18 19:05:00,448 - main.eval - INFO - 
+auc: 0.7745107447557109acc: 0.7190996508704408
+2023-11-18 19:07:46,467 - main - INFO - epoch 10
+2023-11-18 19:08:02,885 - main.eval - INFO - 
+auc: 0.7755169704897942acc: 0.7194392478819871
+2023-11-18 19:40:34,560 - main - INFO - This is a new training log
+2023-11-18 19:40:34,560 - main - INFO - 
+Dataset: assist2017, Ques number: 3162, Batch_size: 128
+2023-11-18 19:43:37,333 - main - INFO - epoch 1
+2023-11-18 19:43:54,782 - main.eval - INFO - 
+auc: 0.6900136142379979acc: 0.670823254650096
+2023-11-18 19:46:46,202 - main - INFO - epoch 2
+2023-11-18 19:47:03,099 - main.eval - INFO - 
+auc: 0.7081901028009747acc: 0.6803260131310844
+2023-11-18 19:49:53,092 - main - INFO - epoch 3
+2023-11-18 19:50:10,952 - main.eval - INFO - 
+auc: 0.7347653465254244acc: 0.6944937621391037
+2023-11-18 19:53:02,605 - main - INFO - epoch 4
+2023-11-18 19:53:19,684 - main.eval - INFO - 
+auc: 0.7562540661351236acc: 0.7062187958009127
+2023-11-18 19:56:08,464 - main - INFO - epoch 5
+2023-11-18 19:56:25,136 - main.eval - INFO - 
+auc: 0.7714718101951867acc: 0.7167343874742323
+2023-11-18 19:59:13,171 - main - INFO - epoch 6
+2023-11-18 19:59:30,008 - main.eval - INFO - 
+auc: 0.7785449288408944acc: 0.7225254101974429
+2023-11-18 20:02:17,908 - main - INFO - epoch 7
+2023-11-18 20:02:34,076 - main.eval - INFO - 
+auc: 0.7837041700301614acc: 0.7261835253744504
+2023-11-18 20:05:20,795 - main - INFO - epoch 8
+2023-11-18 20:05:37,069 - main.eval - INFO - 
+auc: 0.7872795649013683acc: 0.730294436566853
+2023-11-18 20:08:25,327 - main - INFO - epoch 9
+2023-11-18 20:08:41,796 - main.eval - INFO - 
+auc: 0.7886106030051041acc: 0.731378763866878
+2023-11-18 20:11:30,884 - main - INFO - epoch 10
+2023-11-18 20:11:47,093 - main.eval - INFO - 
+auc: 0.7899233020630196acc: 0.7320520000476627
+2023-11-18 21:36:56,251 - main - INFO - This is a new training log
+2023-11-18 21:36:56,251 - main - INFO - 
+Dataset: assist2017, Ques number: 3162, Batch_size: 128
+2023-11-18 21:39:05,538 - main - INFO - This is a new training log
+2023-11-18 21:39:05,538 - main - INFO - 
+Dataset: assist2017, Ques number: 3162, Batch_size: 128
+2023-11-18 21:47:29,106 - main - INFO - epoch 1
+2023-11-18 21:48:48,070 - main.eval - INFO - 
+auc: 0.7039942143368677acc: 0.6793548848349081
+2023-11-18 21:55:15,376 - main - INFO - epoch 2
+2023-11-18 21:56:11,901 - main.eval - INFO - 
+auc: 0.7221003804539752acc: 0.6881248287120336
+2023-11-18 22:02:23,128 - main - INFO - epoch 3
+2023-11-18 22:02:39,534 - main.eval - INFO - 
+auc: 0.7418305993163125acc: 0.6976752499314848
+2023-11-18 22:05:16,748 - main - INFO - epoch 4
+2023-11-18 22:05:32,520 - main.eval - INFO - 
+auc: 0.7575109070870613acc: 0.7067788329778487
+2023-11-18 22:08:12,753 - main - INFO - epoch 5
+2023-11-18 22:08:28,788 - main.eval - INFO - 
+auc: 0.7658449308095769acc: 0.7127366752856785
+2023-11-18 22:11:09,541 - main - INFO - epoch 6
+2023-11-18 22:11:26,452 - main.eval - INFO - 
+auc: 0.7705445703391863acc: 0.7161207297165259
+2023-11-18 22:14:05,510 - main - INFO - epoch 7
+2023-11-18 22:14:22,901 - main.eval - INFO - 
+auc: 0.773293445785404acc: 0.7192128498742896
+2023-11-18 22:17:01,188 - main - INFO - epoch 8
+2023-11-18 22:17:16,789 - main.eval - INFO - 
+auc: 0.7745331100729568acc: 0.7190043253935154
+2023-11-18 22:19:56,471 - main - INFO - epoch 9
+2023-11-18 22:20:13,119 - main.eval - INFO - 
+auc: 0.7738295466780069acc: 0.7193200910358305
+2023-11-18 22:22:56,160 - main - INFO - epoch 10
+2023-11-18 22:23:12,325 - main.eval - INFO - 
+auc: 0.7738611549872236acc: 0.7183132156858072
+2023-11-18 22:40:56,891 - main - INFO - This is a new training log
+2023-11-18 22:40:56,891 - main - INFO - 
+Dataset: assist2017, Ques number: 3162, Batch_size: 128
+2023-11-18 22:44:00,419 - main - INFO - epoch 1
+2023-11-18 22:44:18,157 - main.eval - INFO - 
+auc: 0.7003852301089218acc: 0.6782943889041145
+2023-11-18 22:47:07,128 - main - INFO - epoch 2
+2023-11-18 22:47:23,844 - main.eval - INFO - 
+auc: 0.7178654817012138acc: 0.6859204270581366
+2023-11-18 22:50:07,141 - main - INFO - epoch 3
+2023-11-18 22:50:24,052 - main.eval - INFO - 
+auc: 0.7369093473624905acc: 0.6940886288621713
+2023-11-18 22:53:10,546 - main - INFO - epoch 4
+2023-11-18 22:53:26,192 - main.eval - INFO - 
+auc: 0.7541896297497357acc: 0.703936942197014
+2023-11-18 22:56:09,477 - main - INFO - epoch 5
+2023-11-18 22:56:25,361 - main.eval - INFO - 
+auc: 0.7634562047961975acc: 0.711390202924109
+2023-11-18 22:59:09,437 - main - INFO - epoch 6
+2023-11-18 22:59:25,690 - main.eval - INFO - 
+auc: 0.768737299562368acc: 0.7142201780203281
+2023-11-18 23:02:09,825 - main - INFO - epoch 7
+2023-11-18 23:02:25,893 - main.eval - INFO - 
+auc: 0.7721868911265802acc: 0.7181881009973428
+2023-11-18 23:05:10,010 - main - INFO - epoch 8
+2023-11-18 23:05:28,284 - main.eval - INFO - 
+auc: 0.77382803367809acc: 0.7184859931127343
+2023-11-18 23:08:14,110 - main - INFO - epoch 9
+2023-11-18 23:08:30,421 - main.eval - INFO - 
+auc: 0.7736997431190888acc: 0.7194213743550636
+2023-11-18 23:11:18,719 - main - INFO - epoch 10
+2023-11-18 23:11:37,144 - main.eval - INFO - 
+auc: 0.774097594583045acc: 0.7195524468858359
+2023-11-18 23:13:23,460 - main - INFO - This is a new training log
+2023-11-18 23:13:23,461 - main - INFO - 
+Dataset: assist2017, Ques number: 3162, Batch_size: 128
+2023-11-18 23:14:14,984 - main - INFO - This is a new training log
+2023-11-18 23:14:14,985 - main - INFO - 
+Dataset: assist2017, Ques number: 3162, Batch_size: 128
+2023-11-18 23:17:00,552 - main - INFO - epoch 1
+2023-11-18 23:17:16,843 - main.eval - INFO - 
+auc: 0.7052886878334391acc: 0.6808026405157108
+2023-11-18 23:19:46,065 - main - INFO - epoch 2
+2023-11-18 23:20:01,436 - main.eval - INFO - 
+auc: 0.7248907472963068acc: 0.6882856904543451
+2023-11-18 23:22:29,777 - main - INFO - epoch 3
+2023-11-18 23:22:46,178 - main.eval - INFO - 
+auc: 0.7392676364752627acc: 0.6955304267006661
+2023-11-18 23:25:14,265 - main - INFO - epoch 4
+2023-11-18 23:25:30,027 - main.eval - INFO - 
+auc: 0.7490562662829362acc: 0.7009997259392539
+2023-11-18 23:28:00,495 - main - INFO - epoch 5
+2023-11-18 23:28:17,447 - main.eval - INFO - 
+auc: 0.7561663389938964acc: 0.7052178782931974
+2023-11-18 23:30:43,888 - main - INFO - epoch 6
+2023-11-18 23:30:58,776 - main.eval - INFO - 
+auc: 0.7642538182989858acc: 0.7113008352894915
+2023-11-18 23:33:20,302 - main - INFO - epoch 7
+2023-11-18 23:33:35,139 - main.eval - INFO - 
+auc: 0.7678955064620094acc: 0.7148814985164973
+2023-11-18 23:35:55,926 - main - INFO - epoch 8
+2023-11-18 23:36:10,760 - main.eval - INFO - 
+auc: 0.7700332279511632acc: 0.7152628004241983
+2023-11-18 23:38:32,072 - main - INFO - epoch 9
+2023-11-18 23:38:46,824 - main.eval - INFO - 
+auc: 0.7697123185827001acc: 0.7151913063165044
+2023-11-18 23:41:07,818 - main - INFO - epoch 10
+2023-11-18 23:41:22,476 - main.eval - INFO - 
+auc: 0.7704899815752795acc: 0.7162100973511433
+2023-11-18 23:48:28,588 - main - INFO - This is a new training log
+2023-11-18 23:48:28,589 - main - INFO - 
+Dataset: assist2017, Ques number: 3162, Batch_size: 128
+2023-11-18 23:51:30,676 - main - INFO - epoch 1
+2023-11-18 23:51:46,254 - main.eval - INFO - 
+auc: 0.6931189478372368acc: 0.6733970425270784
+2023-11-18 23:54:34,624 - main - INFO - epoch 2
+2023-11-18 23:54:50,152 - main.eval - INFO - 
+auc: 0.7234334441342354acc: 0.6911692861313347
+2023-11-18 23:57:35,557 - main - INFO - epoch 3
+2023-11-18 23:57:53,539 - main.eval - INFO - 
+auc: 0.7575654774173266acc: 0.7085423543009663
+2023-11-19 00:00:37,694 - main - INFO - epoch 4
+2023-11-19 00:00:54,782 - main.eval - INFO - 
+auc: 0.777799452427693acc: 0.722662440570523
+2023-11-19 00:03:45,574 - main - INFO - epoch 5
+2023-11-19 00:04:02,180 - main.eval - INFO - 
+auc: 0.7881174849646875acc: 0.7293233082706767
+2023-11-19 00:06:47,376 - main - INFO - epoch 6
+2023-11-19 00:07:04,560 - main.eval - INFO - 
+auc: 0.7931332352748568acc: 0.7339406360592448
+2023-11-19 00:09:49,892 - main - INFO - epoch 7
+2023-11-19 00:10:06,364 - main.eval - INFO - 
+auc: 0.7971221370058997acc: 0.736907641528544
+2023-11-19 00:12:53,119 - main - INFO - epoch 8
+2023-11-19 00:13:10,350 - main.eval - INFO - 
+auc: 0.7996505138598318acc: 0.739255031397829
+2023-11-19 00:15:55,498 - main - INFO - epoch 9
+2023-11-19 00:16:11,550 - main.eval - INFO - 
+auc: 0.8016042839922434acc: 0.7407683233440178
+2023-11-19 00:18:57,551 - main - INFO - epoch 10
+2023-11-19 00:19:14,203 - main.eval - INFO - 
+auc: 0.8025529463947216acc: 0.7407385341324786

@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "run.py", line 122, in <module>
+    KTtrain()
+  File "run.py", line 80, in KTtrain
+    adj = hgut.generate_G_from_H(pd.read_csv(r'../../Dataset/H/' + C.H + '.csv', header=None))
+  File "/home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/../../KnowledgeTracing/hgnn_models/hypergraph_utils.py", line 39, in generate_G_from_H
+    G = DV2 * H * W * invDE * HT * DV2
+  File "/home/xinfan/anaconda3/envs/KD/lib/python3.8/site-packages/numpy/matrixlib/defmatrix.py", line 218, in __mul__
+    return N.dot(self, asmatrix(other))
+  File "<__array_function__ internals>", line 200, in dot
+KeyboardInterrupt

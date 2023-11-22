@@ -1,0 +1,823 @@
+2023-11-21 16:59:48,601 INFO    StreamThr :1582153 [internal.py:wandb_internal():86] W&B internal server running at pid: 1582153, started at: 2023-11-21 16:59:48.601491
+2023-11-21 16:59:48,603 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status
+2023-11-21 16:59:48,603 INFO    WriterThread:1582153 [datastore.py:open_for_write():85] open: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/run-j902k074.wandb
+2023-11-21 16:59:48,604 DEBUG   SenderThread:1582153 [sender.py:send():380] send: header
+2023-11-21 16:59:48,618 DEBUG   SenderThread:1582153 [sender.py:send():380] send: run
+2023-11-21 16:59:49,047 INFO    SenderThread:1582153 [dir_watcher.py:__init__():211] watching files in: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files
+2023-11-21 16:59:49,048 INFO    SenderThread:1582153 [sender.py:_start_run_threads():1124] run started: j902k074 with start time 1700553588.601304
+2023-11-21 16:59:49,052 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: check_version
+2023-11-21 16:59:49,052 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: check_version
+2023-11-21 16:59:49,170 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: run_start
+2023-11-21 16:59:49,180 DEBUG   HandlerThread:1582153 [system_info.py:__init__():32] System info init
+2023-11-21 16:59:49,180 DEBUG   HandlerThread:1582153 [system_info.py:__init__():47] System info init done
+2023-11-21 16:59:49,180 INFO    HandlerThread:1582153 [system_monitor.py:start():194] Starting system monitor
+2023-11-21 16:59:49,180 INFO    SystemMonitor:1582153 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-11-21 16:59:49,180 INFO    HandlerThread:1582153 [system_monitor.py:probe():214] Collecting system info
+2023-11-21 16:59:49,180 INFO    SystemMonitor:1582153 [interfaces.py:start():190] Started cpu monitoring
+2023-11-21 16:59:49,181 INFO    SystemMonitor:1582153 [interfaces.py:start():190] Started disk monitoring
+2023-11-21 16:59:49,181 INFO    SystemMonitor:1582153 [interfaces.py:start():190] Started gpu monitoring
+2023-11-21 16:59:49,182 INFO    SystemMonitor:1582153 [interfaces.py:start():190] Started memory monitoring
+2023-11-21 16:59:49,182 INFO    SystemMonitor:1582153 [interfaces.py:start():190] Started network monitoring
+2023-11-21 16:59:49,190 DEBUG   HandlerThread:1582153 [system_info.py:probe():196] Probing system
+2023-11-21 16:59:49,195 DEBUG   HandlerThread:1582153 [system_info.py:_probe_git():181] Probing git
+2023-11-21 16:59:49,204 DEBUG   HandlerThread:1582153 [system_info.py:_probe_git():189] Probing git done
+2023-11-21 16:59:49,204 DEBUG   HandlerThread:1582153 [system_info.py:probe():244] Probing system done
+2023-11-21 16:59:49,204 DEBUG   HandlerThread:1582153 [system_monitor.py:probe():223] {'os': 'Linux-6.2.0-36-generic-x86_64-with-glibc2.17', 'python': '3.8.18', 'heartbeatAt': '2023-11-21T07:59:49.190645', 'startedAt': '2023-11-21T07:59:48.599241', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'run.py', 'codePathLocal': 'run.py', 'codePath': 'KnowledgeTracing/evaluation/run.py', 'git': {'remote': 'git@github.com:Yumo216/DGEKT.git', 'commit': 'a6ef5829d6dc25862fe46e394936bc04b7a3fbbb'}, 'email': 'kalimdor.week@gmail.com', 'root': '/home/xinfan/Desktop/DGEKT', 'host': 'ze-UbuntuX', 'username': 'xinfan', 'executable': '/home/xinfan/anaconda3/envs/KD/bin/python', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 3319.428, 'min': 3000.0, 'max': 4700.0}, 'cpu_freq_per_core': [{'current': 3052.991, 'min': 3000.0, 'max': 4700.0}, {'current': 4498.895, 'min': 3000.0, 'max': 4700.0}, {'current': 3884.959, 'min': 3000.0, 'max': 4700.0}, {'current': 2902.846, 'min': 3000.0, 'max': 4700.0}, {'current': 2984.051, 'min': 3000.0, 'max': 4700.0}, {'current': 3412.184, 'min': 3000.0, 'max': 4700.0}, {'current': 3034.418, 'min': 3000.0, 'max': 4700.0}, {'current': 5195.322, 'min': 3000.0, 'max': 4700.0}, {'current': 2888.59, 'min': 3000.0, 'max': 4700.0}, {'current': 3082.772, 'min': 3000.0, 'max': 4700.0}, {'current': 4691.639, 'min': 3000.0, 'max': 4700.0}, {'current': 3149.806, 'min': 3000.0, 'max': 4700.0}], 'disk': {'/': {'total': 1187.2697830200195, 'used': 309.7137680053711}}, 'gpu': 'NVIDIA GeForce RTX 4090', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4090', 'memory_total': 25757220864}], 'memory': {'total': 61.9179801940918}}
+2023-11-21 16:59:49,205 INFO    HandlerThread:1582153 [system_monitor.py:probe():224] Finished collecting system info
+2023-11-21 16:59:49,205 INFO    HandlerThread:1582153 [system_monitor.py:probe():227] Publishing system info
+2023-11-21 16:59:49,205 DEBUG   HandlerThread:1582153 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-11-21 16:59:49,205 DEBUG   HandlerThread:1582153 [system_info.py:_save_pip():68] Saving pip packages done
+2023-11-21 16:59:49,205 DEBUG   HandlerThread:1582153 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2023-11-21 16:59:50,049 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_created():271] file/dir created: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/requirements.txt
+2023-11-21 16:59:50,049 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_created():271] file/dir created: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/conda-environment.yaml
+2023-11-21 16:59:50,299 DEBUG   HandlerThread:1582153 [system_info.py:_save_conda():87] Saving conda packages done
+2023-11-21 16:59:50,300 INFO    HandlerThread:1582153 [system_monitor.py:probe():229] Finished publishing system info
+2023-11-21 16:59:50,302 DEBUG   SenderThread:1582153 [sender.py:send():380] send: files
+2023-11-21 16:59:50,302 INFO    SenderThread:1582153 [sender.py:_save_file():1380] saving file wandb-metadata.json with policy now
+2023-11-21 16:59:50,305 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 16:59:50,306 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 16:59:50,307 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 16:59:50,582 DEBUG   SenderThread:1582153 [sender.py:send():380] send: telemetry
+2023-11-21 16:59:50,965 INFO    wandb-upload_0:1582153 [upload_job.py:push():131] Uploaded file /tmp/tmpcjijv48hwandb/99bmrwpy-wandb-metadata.json
+2023-11-21 16:59:51,048 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/conda-environment.yaml
+2023-11-21 16:59:51,048 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_created():271] file/dir created: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/wandb-metadata.json
+2023-11-21 16:59:54,582 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 16:59:59,583 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:00:04,584 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:00:05,306 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 17:00:05,306 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 17:00:05,347 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 17:00:10,569 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:00:15,569 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:00:20,306 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 17:00:20,306 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 17:00:20,347 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 17:00:21,541 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:00:22,057 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/config.yaml
+2023-11-21 17:00:26,756 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:00:31,757 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:00:35,306 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 17:00:35,306 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 17:00:35,347 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 17:00:37,545 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:00:42,546 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:00:47,547 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:00:49,182 DEBUG   SystemMonitor:1582153 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-11-21 17:00:49,183 DEBUG   SenderThread:1582153 [sender.py:send():380] send: stats
+2023-11-21 17:00:50,306 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 17:00:50,306 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 17:00:50,347 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 17:00:53,521 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:00:54,066 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_created():271] file/dir created: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:00:56,067 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:00:58,831 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:01:03,961 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:01:04,069 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:01:05,306 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 17:01:05,306 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 17:01:05,306 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 17:01:06,069 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:01:09,143 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:01:10,070 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:01:12,071 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:01:14,071 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:01:14,293 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:01:16,072 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:01:19,184 DEBUG   SenderThread:1582153 [sender.py:send():380] send: stats
+2023-11-21 17:01:20,008 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:01:20,073 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:01:20,306 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 17:01:20,306 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 17:01:20,306 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 17:01:22,073 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:01:24,074 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:01:25,152 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:01:28,075 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:01:30,075 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:01:30,301 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:01:32,076 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:01:32,362 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 17:01:32,363 DEBUG   SenderThread:1582153 [sender.py:send():380] send: history
+2023-11-21 17:01:32,363 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 17:01:32,364 INFO    SenderThread:1582153 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 17:01:33,076 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_created():271] file/dir created: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/wandb-summary.json
+2023-11-21 17:01:34,076 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:01:35,306 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 17:01:35,306 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 17:01:35,306 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 17:01:35,537 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:01:36,077 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:01:40,078 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:01:41,141 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:01:42,078 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:01:44,079 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:01:46,296 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:01:48,079 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:01:49,184 DEBUG   SenderThread:1582153 [sender.py:send():380] send: stats
+2023-11-21 17:01:50,080 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:01:50,306 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 17:01:50,306 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 17:01:50,307 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 17:01:51,510 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:01:52,080 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:01:54,081 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:01:56,593 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:01:58,082 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:02:00,082 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:02:01,748 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:02:02,083 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:02:02,805 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 17:02:02,806 DEBUG   SenderThread:1582153 [sender.py:send():380] send: history
+2023-11-21 17:02:02,806 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 17:02:02,807 INFO    SenderThread:1582153 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 17:02:03,083 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/wandb-summary.json
+2023-11-21 17:02:04,083 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:02:05,306 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 17:02:05,306 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 17:02:05,307 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 17:02:07,511 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:02:08,084 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:02:10,085 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:02:12,085 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:02:12,512 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:02:14,086 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:02:17,657 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:02:18,087 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:02:19,184 DEBUG   SenderThread:1582153 [sender.py:send():380] send: stats
+2023-11-21 17:02:20,087 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:02:20,306 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 17:02:20,307 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 17:02:20,307 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 17:02:22,088 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:02:22,808 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:02:26,089 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:02:27,954 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:02:28,089 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:02:30,090 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:02:32,090 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:02:33,028 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:02:33,162 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 17:02:33,163 DEBUG   SenderThread:1582153 [sender.py:send():380] send: history
+2023-11-21 17:02:33,163 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 17:02:33,164 INFO    SenderThread:1582153 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 17:02:34,091 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:02:34,091 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/wandb-summary.json
+2023-11-21 17:02:35,306 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 17:02:35,307 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 17:02:35,307 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 17:02:36,091 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:02:38,092 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:02:38,362 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:02:40,092 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:02:42,093 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:02:43,508 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:02:46,094 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:02:48,094 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:02:48,661 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:02:49,185 DEBUG   SenderThread:1582153 [sender.py:send():380] send: stats
+2023-11-21 17:02:50,095 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:02:50,307 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 17:02:50,307 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 17:02:50,307 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 17:02:53,806 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:02:54,096 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:02:56,096 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:02:58,097 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:02:58,947 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:03:00,097 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:03:03,565 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 17:03:03,566 DEBUG   SenderThread:1582153 [sender.py:send():380] send: history
+2023-11-21 17:03:03,566 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 17:03:03,567 INFO    SenderThread:1582153 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 17:03:04,098 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:03:04,098 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/wandb-summary.json
+2023-11-21 17:03:04,567 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:03:05,307 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 17:03:05,307 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 17:03:05,307 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 17:03:06,099 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:03:08,099 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:03:09,706 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:03:10,100 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:03:14,101 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:03:14,843 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:03:16,101 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:03:18,102 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:03:19,185 DEBUG   SenderThread:1582153 [sender.py:send():380] send: stats
+2023-11-21 17:03:20,102 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:03:20,186 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:03:20,307 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 17:03:20,307 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 17:03:20,307 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 17:03:24,103 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:03:26,103 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:03:26,135 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:03:28,104 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:03:31,352 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:03:32,105 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:03:33,973 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 17:03:33,974 DEBUG   SenderThread:1582153 [sender.py:send():380] send: history
+2023-11-21 17:03:33,974 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 17:03:33,974 INFO    SenderThread:1582153 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 17:03:34,106 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:03:34,106 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/wandb-summary.json
+2023-11-21 17:03:35,307 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 17:03:35,307 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 17:03:35,307 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 17:03:36,106 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:03:36,517 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:03:37,106 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:03:38,107 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:03:40,107 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:03:41,681 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:03:44,108 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:03:46,109 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:03:46,825 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:03:48,109 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:03:49,186 DEBUG   SenderThread:1582153 [sender.py:send():380] send: stats
+2023-11-21 17:03:50,307 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 17:03:50,307 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 17:03:50,307 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 17:03:51,982 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:03:52,110 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:03:54,111 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:03:56,111 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:03:57,119 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:03:58,112 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:04:02,112 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:04:02,254 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:04:04,113 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:04:04,295 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 17:04:04,296 DEBUG   SenderThread:1582153 [sender.py:send():380] send: history
+2023-11-21 17:04:04,297 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 17:04:04,297 INFO    SenderThread:1582153 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 17:04:05,113 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/wandb-summary.json
+2023-11-21 17:04:05,307 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 17:04:05,307 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 17:04:05,307 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 17:04:06,113 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:04:07,114 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:04:07,855 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:04:08,114 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:04:12,115 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:04:12,989 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:04:14,115 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:04:16,116 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:04:18,116 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:04:18,194 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:04:19,186 DEBUG   SenderThread:1582153 [sender.py:send():380] send: stats
+2023-11-21 17:04:20,307 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 17:04:20,307 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 17:04:20,307 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 17:04:22,117 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:04:23,333 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:04:24,118 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:04:26,118 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:04:28,470 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:04:30,119 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:04:32,119 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:04:33,607 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:04:34,120 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:04:34,643 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 17:04:34,645 DEBUG   SenderThread:1582153 [sender.py:send():380] send: history
+2023-11-21 17:04:34,645 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 17:04:34,645 INFO    SenderThread:1582153 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 17:04:35,120 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/wandb-summary.json
+2023-11-21 17:04:35,307 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 17:04:35,307 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 17:04:35,308 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 17:04:36,120 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:04:37,121 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:04:38,121 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:04:39,210 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:04:42,122 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:04:44,122 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:04:44,361 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:04:46,123 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:04:49,187 DEBUG   SenderThread:1582153 [sender.py:send():380] send: stats
+2023-11-21 17:04:50,076 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:04:50,124 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:04:50,307 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 17:04:50,307 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 17:04:50,308 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 17:04:52,125 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:04:54,125 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:04:55,243 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:04:56,126 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:05:00,127 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:05:00,391 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:05:02,127 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:05:04,128 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:05:05,039 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 17:05:05,040 DEBUG   SenderThread:1582153 [sender.py:send():380] send: history
+2023-11-21 17:05:05,040 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 17:05:05,040 INFO    SenderThread:1582153 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 17:05:05,128 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/wandb-summary.json
+2023-11-21 17:05:05,307 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 17:05:05,308 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 17:05:05,308 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 17:05:05,516 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:05:06,128 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:05:07,128 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:05:10,129 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:05:11,247 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:05:12,130 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:05:14,130 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:05:16,401 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:05:18,131 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:05:19,187 DEBUG   SenderThread:1582153 [sender.py:send():380] send: stats
+2023-11-21 17:05:20,132 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:05:20,307 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 17:05:20,307 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 17:05:20,308 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 17:05:21,564 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:05:22,132 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:05:24,133 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:05:26,728 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:05:28,134 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:05:30,134 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:05:31,879 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:05:32,135 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:05:35,307 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 17:05:35,308 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 17:05:35,308 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 17:05:35,383 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 17:05:35,577 DEBUG   SenderThread:1582153 [sender.py:send():380] send: history
+2023-11-21 17:05:35,577 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 17:05:35,577 INFO    SenderThread:1582153 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 17:05:36,136 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:05:36,136 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/wandb-summary.json
+2023-11-21 17:05:37,136 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:05:37,578 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:05:38,136 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:05:40,137 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:05:42,137 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:05:43,094 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:05:44,138 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:05:48,139 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:05:48,240 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:05:49,188 DEBUG   SenderThread:1582153 [sender.py:send():380] send: stats
+2023-11-21 17:05:50,139 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:05:50,307 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 17:05:50,308 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 17:05:50,308 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 17:05:52,140 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:05:53,416 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:05:56,141 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:05:58,141 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:05:58,567 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:06:00,142 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:06:02,142 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:06:03,712 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:06:05,308 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 17:06:05,308 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 17:06:05,308 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 17:06:05,770 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 17:06:05,771 DEBUG   SenderThread:1582153 [sender.py:send():380] send: history
+2023-11-21 17:06:05,772 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 17:06:05,772 INFO    SenderThread:1582153 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 17:06:06,143 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:06:06,144 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/wandb-summary.json
+2023-11-21 17:06:07,144 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:06:08,144 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:06:09,342 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:06:10,144 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:06:12,145 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:06:14,493 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:06:16,146 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:06:18,146 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:06:19,199 DEBUG   SenderThread:1582153 [sender.py:send():380] send: stats
+2023-11-21 17:06:20,147 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:06:20,199 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:06:20,308 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 17:06:20,308 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 17:06:20,308 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 17:06:22,148 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:06:25,957 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:06:26,149 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:06:28,149 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:06:30,150 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:06:31,104 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:06:34,151 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:06:35,308 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 17:06:35,308 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 17:06:35,308 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 17:06:36,151 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:06:36,193 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:06:36,204 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 17:06:36,205 DEBUG   SenderThread:1582153 [sender.py:send():380] send: history
+2023-11-21 17:06:36,205 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 17:06:36,206 INFO    SenderThread:1582153 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 17:06:37,151 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/wandb-summary.json
+2023-11-21 17:06:38,152 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:06:39,152 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:06:40,152 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:06:41,348 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:06:42,152 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:06:46,154 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:06:46,495 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:06:48,154 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:06:49,189 DEBUG   SenderThread:1582153 [sender.py:send():380] send: stats
+2023-11-21 17:06:50,155 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:06:50,308 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 17:06:50,308 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 17:06:50,308 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 17:06:51,643 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:06:54,156 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:06:56,156 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:06:56,790 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:06:58,157 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:07:00,157 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:07:01,942 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:07:04,159 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:07:05,308 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 17:07:05,308 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 17:07:05,309 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 17:07:06,159 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:07:06,450 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 17:07:06,451 DEBUG   SenderThread:1582153 [sender.py:send():380] send: history
+2023-11-21 17:07:06,451 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 17:07:06,451 INFO    SenderThread:1582153 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 17:07:07,160 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/wandb-summary.json
+2023-11-21 17:07:07,452 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:07:08,160 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:07:09,160 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:07:10,160 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:07:12,586 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:07:14,161 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:07:16,162 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:07:17,728 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:07:18,162 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:07:19,189 DEBUG   SenderThread:1582153 [sender.py:send():380] send: stats
+2023-11-21 17:07:20,162 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:07:20,308 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 17:07:20,308 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 17:07:20,309 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 17:07:22,873 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:07:24,163 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:07:26,164 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:07:28,072 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:07:28,164 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:07:32,165 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:07:33,215 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:07:34,166 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:07:35,308 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 17:07:35,308 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 17:07:35,309 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 17:07:36,166 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:07:36,724 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 17:07:36,725 DEBUG   SenderThread:1582153 [sender.py:send():380] send: history
+2023-11-21 17:07:36,725 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 17:07:36,725 INFO    SenderThread:1582153 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 17:07:37,166 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/wandb-summary.json
+2023-11-21 17:07:38,167 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:07:38,726 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:07:39,167 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:07:40,167 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:07:43,866 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:07:44,168 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:07:46,168 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:07:48,169 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:07:49,015 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:07:49,190 DEBUG   SenderThread:1582153 [sender.py:send():380] send: stats
+2023-11-21 17:07:50,308 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 17:07:50,309 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 17:07:50,309 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 17:07:52,170 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:07:54,162 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:07:54,170 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:07:56,171 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:07:58,171 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:07:59,307 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:08:02,172 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:08:04,173 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:08:04,467 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:08:05,309 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 17:08:05,309 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 17:08:05,309 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 17:08:06,173 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:08:06,983 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 17:08:06,984 DEBUG   SenderThread:1582153 [sender.py:send():380] send: history
+2023-11-21 17:08:06,984 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 17:08:06,985 INFO    SenderThread:1582153 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 17:08:07,173 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/wandb-summary.json
+2023-11-21 17:08:08,174 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:08:09,174 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:08:09,553 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:08:12,175 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:08:14,175 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:08:14,709 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:08:16,176 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:08:18,176 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:08:19,190 DEBUG   SenderThread:1582153 [sender.py:send():380] send: stats
+2023-11-21 17:08:19,923 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:08:20,309 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 17:08:20,309 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 17:08:20,309 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 17:08:22,177 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:08:24,178 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:08:25,074 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:08:26,178 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:08:30,179 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:08:30,216 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:08:32,179 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:08:34,180 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:08:35,309 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 17:08:35,309 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 17:08:35,309 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 17:08:35,510 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:08:36,180 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:08:37,295 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 17:08:37,295 DEBUG   SenderThread:1582153 [sender.py:send():380] send: history
+2023-11-21 17:08:37,295 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 17:08:37,296 INFO    SenderThread:1582153 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 17:08:38,181 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:08:38,181 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/wandb-summary.json
+2023-11-21 17:08:39,181 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:08:40,861 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:08:42,182 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:08:44,182 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:08:46,009 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:08:46,183 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:08:48,183 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:08:49,191 DEBUG   SenderThread:1582153 [sender.py:send():380] send: stats
+2023-11-21 17:08:50,309 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 17:08:50,309 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 17:08:50,309 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 17:08:51,584 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:08:52,184 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:08:54,185 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:08:56,185 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:08:57,312 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:09:00,186 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:09:02,187 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:09:02,449 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:09:04,188 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:09:05,309 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 17:09:05,309 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 17:09:05,309 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 17:09:07,577 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:09:07,589 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 17:09:07,590 DEBUG   SenderThread:1582153 [sender.py:send():380] send: history
+2023-11-21 17:09:07,590 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 17:09:07,591 INFO    SenderThread:1582153 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 17:09:08,189 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:09:08,189 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/wandb-summary.json
+2023-11-21 17:09:09,189 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:09:12,190 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:09:12,726 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:09:14,190 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:09:16,191 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:09:17,860 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:09:19,191 DEBUG   SenderThread:1582153 [sender.py:send():380] send: stats
+2023-11-21 17:09:20,193 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:09:20,309 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 17:09:20,309 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 17:09:20,309 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 17:09:22,193 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:09:23,010 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:09:24,194 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:09:26,194 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:09:28,148 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:09:30,195 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:09:32,196 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:09:33,288 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:09:34,196 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:09:35,309 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 17:09:35,310 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 17:09:35,310 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 17:09:37,781 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 17:09:37,781 DEBUG   SenderThread:1582153 [sender.py:send():380] send: history
+2023-11-21 17:09:37,782 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 17:09:37,782 INFO    SenderThread:1582153 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 17:09:38,197 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:09:38,198 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/wandb-summary.json
+2023-11-21 17:09:38,782 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:09:39,197 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:09:40,198 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:09:42,198 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:09:43,917 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:09:44,199 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:09:46,199 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:09:49,062 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:09:49,192 DEBUG   SenderThread:1582153 [sender.py:send():380] send: stats
+2023-11-21 17:09:50,200 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:09:50,309 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 17:09:50,309 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 17:09:50,310 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 17:09:52,201 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:09:54,201 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:09:54,206 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:09:58,202 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:09:59,351 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:10:00,202 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:10:02,203 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:10:04,203 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:10:04,493 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:10:05,309 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 17:10:05,310 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 17:10:05,311 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 17:10:07,992 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 17:10:07,993 DEBUG   SenderThread:1582153 [sender.py:send():380] send: history
+2023-11-21 17:10:07,993 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 17:10:07,994 INFO    SenderThread:1582153 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 17:10:08,204 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:10:08,205 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/wandb-summary.json
+2023-11-21 17:10:09,205 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:10:09,994 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:10:10,205 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:10:12,205 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:10:14,206 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:10:15,126 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:10:18,207 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:10:19,192 DEBUG   SenderThread:1582153 [sender.py:send():380] send: stats
+2023-11-21 17:10:20,193 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:10:20,207 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:10:20,309 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 17:10:20,309 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 17:10:20,310 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 17:10:22,208 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:10:24,208 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:10:25,474 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:10:28,209 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:10:30,210 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:10:30,616 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:10:32,210 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:10:35,309 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 17:10:35,310 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 17:10:35,310 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 17:10:36,211 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:10:36,318 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:10:38,212 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:10:38,257 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 17:10:38,258 DEBUG   SenderThread:1582153 [sender.py:send():380] send: history
+2023-11-21 17:10:38,258 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 17:10:38,258 INFO    SenderThread:1582153 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 17:10:39,212 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/wandb-summary.json
+2023-11-21 17:10:40,212 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:10:41,212 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:10:41,824 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:10:42,212 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:10:44,213 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:10:46,972 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:10:48,214 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:10:49,193 DEBUG   SenderThread:1582153 [sender.py:send():380] send: stats
+2023-11-21 17:10:50,215 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:10:50,309 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 17:10:50,310 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 17:10:50,311 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 17:10:52,109 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:10:53,216 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:10:55,216 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:10:57,252 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:10:59,217 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:11:01,218 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:11:02,392 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:11:03,218 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:11:05,309 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-21 17:11:05,310 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: stop_status
+2023-11-21 17:11:05,311 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 17:11:07,219 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:11:07,541 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:11:08,457 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-21 17:11:08,458 DEBUG   SenderThread:1582153 [sender.py:send():380] send: history
+2023-11-21 17:11:08,458 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: summary_record
+2023-11-21 17:11:08,459 INFO    SenderThread:1582153 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 17:11:08,459 DEBUG   SenderThread:1582153 [sender.py:send():380] send: exit
+2023-11-21 17:11:08,459 INFO    SenderThread:1582153 [sender.py:send_exit():585] handling exit code: 0
+2023-11-21 17:11:08,459 INFO    SenderThread:1582153 [sender.py:send_exit():587] handling runtime: 679
+2023-11-21 17:11:08,459 INFO    SenderThread:1582153 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 17:11:08,459 INFO    SenderThread:1582153 [sender.py:send_exit():593] send defer
+2023-11-21 17:11:08,459 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: defer
+2023-11-21 17:11:08,459 INFO    HandlerThread:1582153 [handler.py:handle_request_defer():172] handle defer: 0
+2023-11-21 17:11:08,460 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: defer
+2023-11-21 17:11:08,460 INFO    SenderThread:1582153 [sender.py:send_request_defer():609] handle sender defer: 0
+2023-11-21 17:11:08,460 INFO    SenderThread:1582153 [sender.py:transition_state():613] send defer: 1
+2023-11-21 17:11:08,460 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: defer
+2023-11-21 17:11:08,460 INFO    HandlerThread:1582153 [handler.py:handle_request_defer():172] handle defer: 1
+2023-11-21 17:11:08,460 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: defer
+2023-11-21 17:11:08,460 INFO    SenderThread:1582153 [sender.py:send_request_defer():609] handle sender defer: 1
+2023-11-21 17:11:08,460 INFO    SenderThread:1582153 [sender.py:transition_state():613] send defer: 2
+2023-11-21 17:11:08,460 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: defer
+2023-11-21 17:11:08,460 INFO    HandlerThread:1582153 [handler.py:handle_request_defer():172] handle defer: 2
+2023-11-21 17:11:08,460 INFO    HandlerThread:1582153 [system_monitor.py:finish():203] Stopping system monitor
+2023-11-21 17:11:08,460 DEBUG   SystemMonitor:1582153 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-11-21 17:11:08,460 INFO    HandlerThread:1582153 [interfaces.py:finish():202] Joined cpu monitor
+2023-11-21 17:11:08,460 DEBUG   SystemMonitor:1582153 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-11-21 17:11:08,460 INFO    HandlerThread:1582153 [interfaces.py:finish():202] Joined disk monitor
+2023-11-21 17:11:08,506 INFO    HandlerThread:1582153 [interfaces.py:finish():202] Joined gpu monitor
+2023-11-21 17:11:08,506 INFO    HandlerThread:1582153 [interfaces.py:finish():202] Joined memory monitor
+2023-11-21 17:11:08,506 INFO    HandlerThread:1582153 [interfaces.py:finish():202] Joined network monitor
+2023-11-21 17:11:08,506 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: defer
+2023-11-21 17:11:08,507 INFO    SenderThread:1582153 [sender.py:send_request_defer():609] handle sender defer: 2
+2023-11-21 17:11:08,507 INFO    SenderThread:1582153 [sender.py:transition_state():613] send defer: 3
+2023-11-21 17:11:08,507 DEBUG   SenderThread:1582153 [sender.py:send():380] send: stats
+2023-11-21 17:11:08,507 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: defer
+2023-11-21 17:11:08,507 INFO    HandlerThread:1582153 [handler.py:handle_request_defer():172] handle defer: 3
+2023-11-21 17:11:08,507 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: defer
+2023-11-21 17:11:08,507 INFO    SenderThread:1582153 [sender.py:send_request_defer():609] handle sender defer: 3
+2023-11-21 17:11:08,507 INFO    SenderThread:1582153 [sender.py:transition_state():613] send defer: 4
+2023-11-21 17:11:08,507 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: defer
+2023-11-21 17:11:08,507 INFO    HandlerThread:1582153 [handler.py:handle_request_defer():172] handle defer: 4
+2023-11-21 17:11:08,507 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: defer
+2023-11-21 17:11:08,507 INFO    SenderThread:1582153 [sender.py:send_request_defer():609] handle sender defer: 4
+2023-11-21 17:11:08,507 INFO    SenderThread:1582153 [sender.py:transition_state():613] send defer: 5
+2023-11-21 17:11:08,507 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: defer
+2023-11-21 17:11:08,507 INFO    HandlerThread:1582153 [handler.py:handle_request_defer():172] handle defer: 5
+2023-11-21 17:11:08,508 DEBUG   SenderThread:1582153 [sender.py:send():380] send: summary
+2023-11-21 17:11:08,508 INFO    SenderThread:1582153 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-21 17:11:08,508 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: defer
+2023-11-21 17:11:08,508 INFO    SenderThread:1582153 [sender.py:send_request_defer():609] handle sender defer: 5
+2023-11-21 17:11:08,508 INFO    SenderThread:1582153 [sender.py:transition_state():613] send defer: 6
+2023-11-21 17:11:08,508 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: defer
+2023-11-21 17:11:08,508 INFO    HandlerThread:1582153 [handler.py:handle_request_defer():172] handle defer: 6
+2023-11-21 17:11:08,508 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: defer
+2023-11-21 17:11:08,508 INFO    SenderThread:1582153 [sender.py:send_request_defer():609] handle sender defer: 6
+2023-11-21 17:11:08,508 INFO    SenderThread:1582153 [sender.py:transition_state():613] send defer: 7
+2023-11-21 17:11:08,508 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: status_report
+2023-11-21 17:11:08,508 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: defer
+2023-11-21 17:11:08,508 INFO    HandlerThread:1582153 [handler.py:handle_request_defer():172] handle defer: 7
+2023-11-21 17:11:08,508 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: defer
+2023-11-21 17:11:08,508 INFO    SenderThread:1582153 [sender.py:send_request_defer():609] handle sender defer: 7
+2023-11-21 17:11:09,220 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:11:09,220 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/wandb-summary.json
+2023-11-21 17:11:09,459 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: poll_exit
+2023-11-21 17:11:10,608 INFO    SenderThread:1582153 [sender.py:transition_state():613] send defer: 8
+2023-11-21 17:11:10,608 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: poll_exit
+2023-11-21 17:11:10,608 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: defer
+2023-11-21 17:11:10,608 INFO    HandlerThread:1582153 [handler.py:handle_request_defer():172] handle defer: 8
+2023-11-21 17:11:10,609 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: defer
+2023-11-21 17:11:10,609 INFO    SenderThread:1582153 [sender.py:send_request_defer():609] handle sender defer: 8
+2023-11-21 17:11:10,609 INFO    SenderThread:1582153 [job_builder.py:build():298] Attempting to build job artifact
+2023-11-21 17:11:10,609 INFO    SenderThread:1582153 [job_builder.py:_get_source_type():428] is repo sourced job
+2023-11-21 17:11:10,622 INFO    SenderThread:1582153 [job_builder.py:build():404] adding wandb-job metadata file
+2023-11-21 17:11:10,633 INFO    SenderThread:1582153 [sender.py:transition_state():613] send defer: 9
+2023-11-21 17:11:10,633 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: defer
+2023-11-21 17:11:10,633 INFO    HandlerThread:1582153 [handler.py:handle_request_defer():172] handle defer: 9
+2023-11-21 17:11:10,633 DEBUG   SenderThread:1582153 [sender.py:send():380] send: artifact
+2023-11-21 17:11:11,221 INFO    Thread-12 :1582153 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:11:11,972 INFO    SenderThread:1582153 [sender.py:send_artifact():1458] sent artifact job-git_github.com_Yumo216_DGEKT.git_KnowledgeTracing_evaluation_run.py - {'id': 'QXJ0aWZhY3Q6NjQ0Mzc2MzYw', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjExMzA4MzYyOA==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NjQ0Mzc2MzYw', 'versionIndex': 7}}}
+2023-11-21 17:11:11,972 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: defer
+2023-11-21 17:11:11,972 INFO    SenderThread:1582153 [sender.py:send_request_defer():609] handle sender defer: 9
+2023-11-21 17:11:11,972 INFO    SenderThread:1582153 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-11-21 17:11:12,222 INFO    SenderThread:1582153 [dir_watcher.py:finish():388] scan: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files
+2023-11-21 17:11:12,222 INFO    SenderThread:1582153 [dir_watcher.py:finish():402] scan save: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/wandb-metadata.json wandb-metadata.json
+2023-11-21 17:11:12,222 INFO    SenderThread:1582153 [dir_watcher.py:finish():402] scan save: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/conda-environment.yaml conda-environment.yaml
+2023-11-21 17:11:12,222 INFO    SenderThread:1582153 [dir_watcher.py:finish():402] scan save: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log output.log
+2023-11-21 17:11:12,223 INFO    SenderThread:1582153 [dir_watcher.py:finish():402] scan save: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/config.yaml config.yaml
+2023-11-21 17:11:12,223 INFO    SenderThread:1582153 [dir_watcher.py:finish():402] scan save: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/requirements.txt requirements.txt
+2023-11-21 17:11:12,225 INFO    SenderThread:1582153 [dir_watcher.py:finish():402] scan save: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/wandb-summary.json wandb-summary.json
+2023-11-21 17:11:12,226 INFO    SenderThread:1582153 [sender.py:transition_state():613] send defer: 10
+2023-11-21 17:11:12,228 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: defer
+2023-11-21 17:11:12,228 INFO    HandlerThread:1582153 [handler.py:handle_request_defer():172] handle defer: 10
+2023-11-21 17:11:12,228 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: defer
+2023-11-21 17:11:12,228 INFO    SenderThread:1582153 [sender.py:send_request_defer():609] handle sender defer: 10
+2023-11-21 17:11:12,228 INFO    SenderThread:1582153 [file_pusher.py:finish():175] shutting down file pusher
+2023-11-21 17:11:12,817 INFO    wandb-upload_3:1582153 [upload_job.py:push():131] Uploaded file /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/requirements.txt
+2023-11-21 17:11:12,818 INFO    wandb-upload_2:1582153 [upload_job.py:push():131] Uploaded file /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/config.yaml
+2023-11-21 17:11:12,820 INFO    wandb-upload_4:1582153 [upload_job.py:push():131] Uploaded file /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/wandb-summary.json
+2023-11-21 17:11:12,822 INFO    wandb-upload_0:1582153 [upload_job.py:push():131] Uploaded file /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/conda-environment.yaml
+2023-11-21 17:11:13,261 INFO    wandb-upload_1:1582153 [upload_job.py:push():131] Uploaded file /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/files/output.log
+2023-11-21 17:11:13,461 INFO    Thread-11 :1582153 [sender.py:transition_state():613] send defer: 11
+2023-11-21 17:11:13,461 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: defer
+2023-11-21 17:11:13,461 INFO    HandlerThread:1582153 [handler.py:handle_request_defer():172] handle defer: 11
+2023-11-21 17:11:13,462 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: defer
+2023-11-21 17:11:13,462 INFO    SenderThread:1582153 [sender.py:send_request_defer():609] handle sender defer: 11
+2023-11-21 17:11:13,462 INFO    SenderThread:1582153 [file_pusher.py:join():181] waiting for file pusher
+2023-11-21 17:11:13,462 INFO    SenderThread:1582153 [sender.py:transition_state():613] send defer: 12
+2023-11-21 17:11:13,462 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: defer
+2023-11-21 17:11:13,462 INFO    HandlerThread:1582153 [handler.py:handle_request_defer():172] handle defer: 12
+2023-11-21 17:11:13,462 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: defer
+2023-11-21 17:11:13,462 INFO    SenderThread:1582153 [sender.py:send_request_defer():609] handle sender defer: 12
+2023-11-21 17:11:13,462 INFO    SenderThread:1582153 [file_stream.py:finish():595] file stream finish called
+2023-11-21 17:11:14,404 INFO    SenderThread:1582153 [file_stream.py:finish():599] file stream finish is done
+2023-11-21 17:11:14,404 INFO    SenderThread:1582153 [sender.py:transition_state():613] send defer: 13
+2023-11-21 17:11:14,404 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: defer
+2023-11-21 17:11:14,404 INFO    HandlerThread:1582153 [handler.py:handle_request_defer():172] handle defer: 13
+2023-11-21 17:11:14,405 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: defer
+2023-11-21 17:11:14,405 INFO    SenderThread:1582153 [sender.py:send_request_defer():609] handle sender defer: 13
+2023-11-21 17:11:14,405 INFO    SenderThread:1582153 [sender.py:transition_state():613] send defer: 14
+2023-11-21 17:11:14,405 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: defer
+2023-11-21 17:11:14,405 INFO    HandlerThread:1582153 [handler.py:handle_request_defer():172] handle defer: 14
+2023-11-21 17:11:14,405 DEBUG   SenderThread:1582153 [sender.py:send():380] send: final
+2023-11-21 17:11:14,405 DEBUG   SenderThread:1582153 [sender.py:send():380] send: footer
+2023-11-21 17:11:14,405 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: defer
+2023-11-21 17:11:14,405 INFO    SenderThread:1582153 [sender.py:send_request_defer():609] handle sender defer: 14
+2023-11-21 17:11:14,406 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: poll_exit
+2023-11-21 17:11:14,406 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: poll_exit
+2023-11-21 17:11:14,406 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: server_info
+2023-11-21 17:11:14,406 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: server_info
+2023-11-21 17:11:14,407 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: get_summary
+2023-11-21 17:11:14,408 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: sampled_history
+2023-11-21 17:11:14,408 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-21 17:11:14,409 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: job_info
+2023-11-21 17:11:14,568 DEBUG   SenderThread:1582153 [sender.py:send_request():407] send_request: job_info
+2023-11-21 17:11:14,568 INFO    MainThread:1582153 [wandb_run.py:_footer_history_summary_info():3760] rendering history
+2023-11-21 17:11:14,568 INFO    MainThread:1582153 [wandb_run.py:_footer_history_summary_info():3792] rendering summary
+2023-11-21 17:11:14,568 INFO    MainThread:1582153 [wandb_run.py:_footer_sync_info():3719] logging synced files
+2023-11-21 17:11:14,569 DEBUG   HandlerThread:1582153 [handler.py:handle_request():146] handle_request: shutdown
+2023-11-21 17:11:14,569 INFO    HandlerThread:1582153 [handler.py:finish():866] shutting down handler
+2023-11-21 17:11:15,409 INFO    WriterThread:1582153 [datastore.py:close():294] close: /home/xinfan/Desktop/DGEKT/KnowledgeTracing/evaluation/wandb/run-20231121_165948-j902k074/run-j902k074.wandb
+2023-11-21 17:11:15,568 INFO    SenderThread:1582153 [sender.py:finish():1536] shutting down sender
+2023-11-21 17:11:15,568 INFO    SenderThread:1582153 [file_pusher.py:finish():175] shutting down file pusher
+2023-11-21 17:11:15,568 INFO    SenderThread:1582153 [file_pusher.py:join():181] waiting for file pusher

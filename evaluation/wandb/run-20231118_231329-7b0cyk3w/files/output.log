@@ -1,0 +1,16 @@
+
+Generate adjacency matrix:    : 1367it [00:01, 1141.98it/s]
+Training:    :   0%|                                                                                               | 0/125 [00:00<?, ?it/s]
+epoch: 1            lr =  0.001
+Traceback (most recent call last):
+  File "run.py", line 122, in <module>
+    KTtrain()
+  File "run.py", line 94, in KTtrain
+    model, optimizer = eval.train_epoch(model, trainLoaders[0], optimizer, loss_func)
+  File "C:\Users\15737\OneDrive\桌面\DGEKT\KnowledgeTracing\evaluation\../..\KnowledgeTracing\evaluation\eval.py", line 82, in train_epoch
+    logit_c, logit_t, logit_ensemble = model(batch)
+  File "C:\Users\15737\AppData\Roaming\Python\Python38\site-packages\torch\nn\modules\module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\15737\OneDrive\桌面\DGEKT\KnowledgeTracing\evaluation\../..\KnowledgeTracing\model\Model.py", line 135, in forward
+    return logit_c, logit_light, emseble_logit
+NameError: name 'logit_c' is not defined
